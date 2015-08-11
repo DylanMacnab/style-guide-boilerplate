@@ -1,0 +1,46 @@
+
+// ********************************************
+// Name: Main.scss
+// Description: Place to import all SCSS partials, adapted from ITCSS method
+// ********************************************
+
+
+// How to use this:
+  // Files are broken down into categories
+  // General specificity increaes down the document
+
+
+
+
+// ********************************************
+// B A S E : variables, normalize
+
+  @import "base/_variables";
+  @import "base/_normalize";
+
+
+
+
+// ********************************************
+// T O O L S : Mixins, Functions, Media Queries, Helper Classes, Grid System
+
+  @import "tools/_media-queries"; // mixin
+  @import "tools/_grid-system";  // from bootstrap
+  @import "tools/_prism-js"; // js libary css for code blocks
+
+
+
+// ********************************************
+// M O D U L E : Objects, Patterns,
+
+  // Objects: 1 for each item in style guide
+
+
+
+
+// ********************************************
+// J U N K : Other bits, Style Guide Specific Styles
+
+  // Odds and Ends... find a place eventually
+
+  // Style Guide Specific

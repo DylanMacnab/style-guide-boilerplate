@@ -10,6 +10,8 @@
   // 2. Add a row
   // 3. Add .col-(size)-(number)
 
+// Container Fluid class is edited
+
 
 // Bits of Advice:
   // Container has padding
@@ -46,6 +48,7 @@
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
+  max-width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
 }

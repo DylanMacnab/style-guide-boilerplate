@@ -356,6 +356,9 @@ td,
 th {
   padding: 0; }
 
+pre, code {
+  font-family: "Source Code Pro", Menlo, Consolas, Monaco, monospace; }
+
 .container {
   margin-right: auto;
   margin-left: auto;

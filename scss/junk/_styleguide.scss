@@ -1,0 +1,33 @@
+
+// **************************************************
+// Name: styleguide.scss
+// Description: style guide specific styles
+// **************************************************
+
+
+
+// Color Swatches
+// --------------------------------------------------
+
+.swatch {
+  margin-top: 5px;
+  &__color {
+    min-height: 75px;
+  }
+  &__name {
+    color: $gray-5;
+    padding-top: 5px;
+    font-size: .85rem;
+    ul {
+      font-family: $font-family--code;
+    }
+  }
+}
+
+
+// Color Classes
+// --------------------------------------------------
+
+.gray-1 {
+  background: red;
+}

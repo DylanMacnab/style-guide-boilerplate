@@ -118,20 +118,12 @@ strong {
 // List Styles
 // --------------------------------------------------
 
-// Unordered Lists
+// Ordered and Unordered
 // -------------------------
 
-ul {
+ol, ul {
+  margin: 0 0 16px 20px;
   padding: 0;
-  margin-left: 20px;
-}
-
-// Ordered Lists
-// -------------------------
-
-ol {
-  padding: 0;
-  margin-left: 20px;
 }
 
 
@@ -153,7 +145,7 @@ button {
     border-color: $brand-1;
     a {
       color: $brand-1;
-      border-bottom: none;
+      border-bottom: none; // removes border from default link
     }
   }
 }

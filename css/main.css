@@ -418,13 +418,9 @@ em {
 strong {
   font-weight: 700; }
 
-ul {
-  padding: 0;
-  margin-left: 20px; }
-
-ol {
-  padding: 0;
-  margin-left: 20px; }
+ol, ul {
+  margin: 0 0 16px 20px;
+  padding: 0; }
 
 button {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1252,3 +1248,22 @@ pre[class*="language-"] {
 
 .token.entity {
   cursor: help; }
+
+.list--unstyled {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0; }
+
+.swatch {
+  margin-top: 5px; }
+  .swatch__color {
+    min-height: 75px; }
+  .swatch__name {
+    color: #a4a5a6;
+    padding-top: 5px;
+    font-size: .85rem; }
+    .swatch__name ul {
+      font-family: "Source Code Pro", Menlo, Consolas, Monaco, monospace; }
+
+.gray-1 {
+  background: red; }

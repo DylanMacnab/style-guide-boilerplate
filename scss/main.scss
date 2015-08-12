@@ -33,8 +33,7 @@
 // ********************************************
 // M O D U L E : Objects, Patterns,
 
-  // Objects: 1 for each item in style guide
-
+  @import "module/_lists"; // for layout lists
 
 
 
@@ -44,3 +43,4 @@
   // Odds and Ends... find a place eventually
 
   // Style Guide Specific
+  @import "junk/_styleguide.scss"

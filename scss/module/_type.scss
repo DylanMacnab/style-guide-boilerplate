@@ -1,0 +1,17 @@
+
+// **************************************************
+// Name: type.scss
+// Description: type style classes
+// **************************************************
+
+
+
+// different font sizes
+// --------------------------------------------------
+
+.type--large {
+  font-family: $font-family--primary;
+  font-size: 1.25rem;
+  font-weight: $font-weight--light;
+  color: darken($gray-4, 12%);
+}

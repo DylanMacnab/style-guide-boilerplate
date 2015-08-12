@@ -120,7 +120,6 @@
 // Example (out and or code)
 // --------------------------------------------------
 
-
 .example {
   margin-top: 10px;
   &__output {
@@ -130,5 +129,52 @@
   }
   &__code {
     border-radius: 0 0 3px 3px;
+  }
+}
+
+
+// Layout
+// --------------------------------------------------
+
+// Page Wrap (page container / clearfix)
+// ----------------------
+
+.page-wrap {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+
+// Main Content (container)
+// ----------------------
+
+.main-content {
+  float: right;
+  width: 100%;
+  padding-left: 250px;
+}
+
+// Sections
+// ----------------------
+
+.section {
+  margin-top: 100px;
+  &__group {
+    padding-bottom: 75px;
+    border-bottom: 2px solid $gray-6;
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}
+
+.header {
+  padding: 100px 0 10px 0;
+  background: $accent-1;
+  margin-top: 50px;
+  &:first-of-type {
+    margin-top: 0;
   }
 }

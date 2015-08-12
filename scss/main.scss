@@ -34,6 +34,7 @@
 // M O D U L E : Objects, Patterns,
 
   @import "module/_lists"; // for layout lists
+  @import "module/_type.scss";
 
 
 
@@ -43,4 +44,5 @@
   // Odds and Ends... find a place eventually
 
   // Style Guide Specific
-  @import "junk/_styleguide.scss"
+  @import "junk/_styleguide.scss";
+  @import "junk/_sidebar.scss";

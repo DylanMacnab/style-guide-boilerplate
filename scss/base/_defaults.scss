@@ -1,10 +1,89 @@
 
-// ********************************************
+// **************************************************
 // Name: defaults.scss
 // Description: custom html element default styles
-// ********************************************
+// **************************************************
 
 
+
+// Global Setup
+// --------------------------------------------------
+
+// Box Sizing
+// -------------------------
+
+* {
+  box-sizing: border-box;
+}
+
+// Base font size
+// -------------------------
+
+html {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: $font-family--primary;
+  font-weight: $font-weight--normal;
+  color: $gray-4;
+}
+
+body {
+  background: $gray-9;
+}
+
+
+
+// Typography
+// --------------------------------------------------
+
+// Headlines
+// -------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px 0;
+  padding: 50px 0 0 0;
+  font-family: $font-family--primary;
+  line-height: 1.5;
+}
+
+h1, .h1 {
+  font-size: 4.75rem;
+  color: $gray-10;
+}
+
+h2, .h2 {
+  font-size: 2.25rem;
+  color: $brand-2;
+}
+
+h3, .h3 {
+  font-size: 1.5rem;
+  color: $brand-2;
+}
+
+h4, .h4 {
+  font-size: 1.15rem;
+  color: $gray-3;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+}
+
+// Paragraphs
+// -------------------------
+
+p {
+  font-family: $font-family--primary;
+}
+
+// Links
+// -------------------------
+
+
+
+// Font Stacks
+// -------------------------
 
 pre, code {
   font-family: $font-family--code;

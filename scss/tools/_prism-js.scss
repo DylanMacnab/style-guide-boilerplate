@@ -50,7 +50,7 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 /* Code blocks */
 pre[class*="language-"] {
 	padding: 1em;
-	margin: .5em 0;
+	margin: 0 0 .5em 0;
 	overflow: auto;
 }
 
@@ -73,7 +73,7 @@ pre[class*="language-"] {
 }
 
 .token.punctuation {
-	color: #999;
+	color: $gray-5;
 }
 
 .namespace {
@@ -87,7 +87,7 @@ pre[class*="language-"] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-	color: #905;
+	color: $warn-1;
 }
 
 .token.selector,
@@ -96,7 +96,7 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-	color: #690;
+	color: $brand-2;
 }
 
 .token.operator,
@@ -111,7 +111,7 @@ pre[class*="language-"] {
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-	color: #07a;
+	color: $error-2;
 }
 
 .token.function {

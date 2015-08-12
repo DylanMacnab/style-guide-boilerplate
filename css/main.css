@@ -1266,7 +1266,85 @@ pre[class*="language-"] {
       font-family: "Source Code Pro", Menlo, Consolas, Monaco, monospace; }
 
 .gray-1 {
-  background: red; }
+  background: #1c1d1e; }
+
+.gray-2 {
+  background: #38393a; }
+
+.gray-3 {
+  background: #58595a; }
+
+.gray-4 {
+  background: #676869; }
+
+.gray-5 {
+  background: #a4a5a6; }
+
+.gray-6 {
+  background: #d6d7d8; }
+
+.gray-7 {
+  background: #e1e1e1; }
+
+.gray-8 {
+  background: #ecedef; }
+
+.gray-9 {
+  background: #f6f7f8; }
+
+.gray-10 {
+  background: white; }
+
+.brand-1 {
+  background: #008da0; }
+
+.brand-2 {
+  background: #02aac1; }
+
+.brand-3 {
+  background: #20cace; }
+
+.brand-4 {
+  background: #82e8e8; }
+
+.accent-1 {
+  background: #26474e; }
+
+.accent-2 {
+  background: #326168; }
+
+.accent-3 {
+  background: #36787f; }
+
+.accent-4 {
+  background: #5ca9ad; }
+
+.error-1 {
+  background: #842a12; }
+
+.error-2 {
+  background: #c1361b; }
+
+.error-3 {
+  background: #e2bbb0; }
+
+.warn-1 {
+  background: #dda505; }
+
+.warn-2 {
+  background: #fcd638; }
+
+.warn-3 {
+  background: #ffebb3; }
+
+.success-1 {
+  background: #1f7732; }
+
+.success-2 {
+  background: #2fad47; }
+
+.success-3 {
+  background: #aae5b2; }
 
 .example {
   margin-top: 10px; }

@@ -148,13 +148,18 @@ button {
   background: transparent;
   color: $brand-2;
   border: 2px solid $brand-2;
+
   &:hover {
     border-color: $brand-1;
-  }
-  a:hover {
-    border-bottom: none;
+    a {
+      color: $brand-1;
+      border-bottom: none;
+    }
   }
 }
+
+
+
 
 
 
@@ -195,3 +200,8 @@ table {
     color: $gray-5;
   }
 }
+
+
+
+// Forms
+// --------------------------------------------------

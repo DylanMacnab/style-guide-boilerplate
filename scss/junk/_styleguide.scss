@@ -132,6 +132,15 @@
   }
 }
 
+// Adjust Type Color
+// ----------------------
+
+.example {
+  .h1, .h2, .h3, .h4, .h5 {
+      color: $gray-5;
+  }
+}
+
 
 // Layout
 // --------------------------------------------------
@@ -160,15 +169,16 @@
 // ----------------------
 
 .section {
-  margin-top: 100px;
-  &__group {
-    padding-bottom: 75px;
-    border-bottom: 2px solid $gray-6;
-    &:last-of-type {
-      border-bottom: none;
-    }
+  padding-bottom: 75px;
+  border-bottom: 2px solid $gray-6;
+  &:last-of-type {
+    border-bottom: none;
   }
 }
+
+// Header
+// Description: color block header for main categories
+// ----------------------
 
 .header {
   padding: 100px 0 10px 0;

@@ -126,6 +126,10 @@ ol, ul {
   padding: 0;
 }
 
+ol > ol, ul > ul {
+  margin-bottom: 0;
+}
+
 
 
 // Button

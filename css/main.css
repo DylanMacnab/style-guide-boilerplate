@@ -422,6 +422,9 @@ ol, ul {
   margin: 0 0 16px 20px;
   padding: 0; }
 
+ol > ol, ul > ul {
+  margin-bottom: 0; }
+
 button {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
@@ -1176,7 +1179,7 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
     text-shadow: none; } }
 /* Code blocks */
 pre[class*="language-"] {
-  padding: 1em;
+  padding: 2rem;
   margin: 0 0 .5em 0;
   overflow: auto; }
 

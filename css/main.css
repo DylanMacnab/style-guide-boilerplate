@@ -1391,6 +1391,15 @@ pre[class*="language-"] {
   .header:first-of-type {
     margin-top: 0; }
 
+.class-name {
+  font-family: "Source Code Pro", Menlo, Consolas, Monaco, monospace;
+  background: #f6f7f8;
+  color: #58595a;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 7px;
+  border-radius: 3px; }
+
 .sidebar {
   float: left;
   position: fixed;
@@ -1398,7 +1407,8 @@ pre[class*="language-"] {
   width: 250px;
   height: 100%;
   padding: 30px;
-  background: white; }
+  background: white;
+  box-shadow: 0 1px 3px rgba(28, 29, 30, 0.07); }
 
 .sidebar__logo {
   font-weight: 300;

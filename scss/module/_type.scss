@@ -15,3 +15,9 @@
   font-weight: $font-weight--light;
   color: darken($gray-4, 12%);
 }
+
+.type--small {
+  font-family: $font-family--primary;
+  font-size: .8rem;
+  font-weight: $font-weight--normal;
+}

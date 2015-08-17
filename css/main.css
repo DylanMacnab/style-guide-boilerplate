@@ -411,6 +411,9 @@ pre {
   border-bottom: 2px solid #e1e1e1;
   border-top: 2px solid #e1e1e1; }
 
+.hack--pre-wrap {
+  white-space: pre-wrap; }
+
 em {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400italic; }
@@ -1151,7 +1154,6 @@ pre[class*="language-"] {
   text-shadow: 0 1px white;
   direction: ltr;
   text-align: left;
-  white-space: pre;
   word-spacing: normal;
   word-break: normal;
   line-height: 1.5;
@@ -1262,6 +1264,11 @@ pre[class*="language-"] {
   font-size: 1.25rem;
   font-weight: 300;
   color: #49494a; }
+
+.type--small {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+  font-weight: 400; }
 
 .swatch {
   margin-top: 5px; }

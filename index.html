@@ -26,8 +26,8 @@
 				<ul class="list--unstyled">
 					<a href="#introduction"><li>Introduction</li></a>
 					<a href="#basic-style"><li>Basic Style</li></a>
-					<a href=""><li>Layout</li></a>
-					<a href=""><li>Components</li></a>
+					<a href="#layout"><li>Layout</li></a>
+					<a href="#components"><li>Components</li></a>
 				</ul>
 			</div> <!-- Sidebar Ends -->
 
@@ -582,195 +582,223 @@
 									<blockquote>Blockquotes are used to indicates that the enclosed text is an extended quotation. This text is rendered indented and with a left border to seperate it from normal text. The font size is also slightly larger than default paragraph text to create more contrast.</blockquote>
 								</div>
 								<div class="example__code">
-<pre class="hack--pre-wrap"><code class="language-markup">&lt;blockquote"&gt;Blockquotes are used to indicates that the enclosed text is an extended quotation. This text is rendered indented and with a left border to seperate it from normal text. The font size is also slightly larger than default paragraph text to create more contrast.&lt;/blockquote&gt;
+<pre class="hack--pre-wrap"><code class="language-markup">&lt;blockquote&gt;Blockquotes are used to indicates that the enclosed text is an extended quotation. This text is rendered indented and with a left border to seperate it from normal text. The font size is also slightly larger than default paragraph text to create more contrast.&lt;/blockquote&gt;
 </code></pre>
 								</div>
 							</div>
 
 
-
-
-
-
-
-
-
-
 						</div> <!-- End of Typography Section -->
+					</div>
 
+					<div id="layout" class="header"> <!-- Start of Layout Category -->
+						<div class="container-fluid">
+							<h1>Layout</h1>
+						</div>
+					</div>
 
+					<div class="container-fluid">
+
+						<div class="section">
+
+							<h2>Grid System</h2>
+							<p class="type--large">The grid system is adapted from the mobile first system created by <a href="http://getbootstrap.com/">Bootstrap</a>. This is only a quick refresher of the Bootstrap grid system. There are many more features and you should read through the official documentation for a more complete understanding.</p>
+
+							<h3>The Basics</h3>
+							<h4>Container</h4>
+							<p>Always start with a container to wrap your content. There are two types of containers: <span class="class-name">.container</span> and <span class="class-name">.container-fluid</span>. The difference between the two types of containers is that container-fluid fills 100% of it's parent container, while container has fixed widths set for each device / media query.</p>
+
+							<h4>Rows</h4>
+							<p>Inside your container live the rows of content. Not all of your content needs to live inside a row, however, for anything other than single column layouts, you will need to nest a <span class="class-name">.row</span>. Rows also make sure your the gutters align correctly when using columns.</p>
+							<h4>Columns</h4>
+							<p>The final piece of the grid system are the column classes. These are mobile first, and you can use more than one class on an element for more control over the responsiveness of the layout at different viewport sizes. Every column class is made of three things: col, viewport size, and # of columns. For example: if you want a two column grid starting at medium size devices, <span class="class-name">.col-md-6</span>.</p>
+
+							<div class="example">
+								<div class="example__output">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="bar">
+												<p><span class="class-name">.col-md-6</span></p>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="bar">
+												<p><span class="class-name">.col-md-6</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="example__code">
+<pre class="hack--pre-wrap"><code class="language-markup">&lt;div class="container-fluid"&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-md-6"&gt;
+			&lt;div class="bar"&gt;
+				&lt;p&gt;&lt;span class="class-name"&gt;.col-md-6&lt;/span&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="col-md-6"&gt;
+			&lt;div class="bar"&gt;
+				&lt;p&gt;&lt;span class="class-name"&gt;.col-md-6&lt;/span&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+								</div>
+							</div>
+
+						</div> <!-- End of Grid System Section -->
+
+					</div> <!-- End of Layout Category -->
+
+					<div id="components" class="header"> <!-- Start of Component Category -->
+						<div class="container-fluid">
+							<h1>Components</h1>
+						</div>
+					</div>
+
+					<div class="container-fluid">
+
+						<div class="section">
+							<h2>Tables</h2>
+            	<h3>Default Table</h3>
+							<div class="example">
+								<div class="example__output">
+									<table>
+                  <caption>2015-2016 <a href="">Portland Trailblazers</a> Roster</caption>
+                  <colgroup>
+                    <col style="width:50%">
+                    <col style="width:25%">
+                    <col style="width:25%">
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th>Player</th>
+                      <th>Age</th>
+                      <th>Salary</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Damian Lillard</td>
+                      <td>24</td>
+                      <td>$4.3</td>
+                    </tr>
+                     <tr>
+                      <td>CJ McCollum</td>
+                      <td>23</td>
+                      <td>$2.5</td>
+                    </tr>
+                     <tr>
+                      <td>Meyers Leonard</td>
+                      <td>23</td>
+                      <td>$3.1</td>
+                    </tr>
+                     <tr>
+                      <td>Noah Vonleh</td>
+                      <td>20</td>
+                      <td>$2.6</td>
+                    </tr>
+                     <tr>
+                      <td>Chris Kaman</td>
+                      <td>33</td>
+                      <td>$5.0</td>
+                    </tr>
+                     <tr>
+                      <td>Luis Montero</td>
+                      <td>22</td>
+                      <td>$0.5</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+								</div>
+								<div class="example__code">
+									<pre><code class="language-markup">&lt;table&gt;
+&lt;caption&gt;2015-2016 &lt;a href=""&gt;Portland Trailblazers&lt;/a&gt; Roster&lt;/caption&gt;
+  &lt;colgroup&gt;
+    &lt;col style="width:50%"&gt;
+    &lt;col style="width:25%"&gt;
+    &lt;col style="width:25%"&gt;
+  &lt;/colgroup&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Player&lt;/th&gt;
+      &lt;th&gt;Age&lt;/th&gt;
+      &lt;th&gt;Salary&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Damian Lillard&lt;/td&gt;
+      &lt;td&gt;24&lt;/td&gt;
+      &lt;td&gt;$4.3&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;CJ McCollum&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+      &lt;td&gt;$2.5&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Meyers Leonard&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+      &lt;td&gt;$3.1&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Noah Vonleh&lt;/td&gt;
+      &lt;td&gt;20&lt;/td&gt;
+      &lt;td&gt;$2.6&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Chris Kaman&lt;/td&gt;
+      &lt;td&gt;33&lt;/td&gt;
+      &lt;td&gt;$5.0&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Luis Montero&lt;/td&gt;
+      &lt;td&gt;22&lt;/td&gt;
+      &lt;td&gt;$0.5&lt;/td&gt;
+    &lt;/tr&gt;
+
+  &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+								</div>
+							</div>
 						</div>
 
+						<div class="section">
+							<h2>Forms</h2>
+            	<h3>Basic Text Form</h3>
+							<div class="example">
+								<div class="example__output">
+									<p>Hello World</p>
+								</div>
+								<div class="example__code">
+									<pre><code class="language-markup">&lt;h1 class="h1"&gt;Headline One&lt;/h1&gt;
+&lt;h2 class="h2"&gt;Headline Two&lt;/h2&gt;
+&lt;h3 class="h3"&gt;Headline Three&lt;/h3&gt;
+&lt;h4 class="h4"&gt;Headline Four&lt;/h4&gt;
+&lt;h5 class="h5"&gt;Headline Five&lt;/h5&gt;</code></pre>
+								</div>
+							</div>
+						</div>
+
+
 					</div>
+
+
+
+
+
+
+
+
 
 				</div> <!-- End of Main-Content -->
 
 			</div> <!-- Page-Wrap Ends -->
 
-
-
-
-
-
-			<div class="container-fluid">
-
-				<h1>Short Headlines</h1>
-				<p>
-					This is Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-					<pre><code class="language-markup">&lt;p&gt;Hello World&lt;/p&gt;</code>
-					</pre>
-
-				<h1><em>Hello</em> World!</h1>
-				<p>This is what a <strong>strong</strong> paragraph will look like. <a href="">Click this link</a></p>
-
-				<h2>Hello World!</h2>
-				<p>This is what a paragraph will look like.</p>
-
-				<h3>Hello World!</h3>
-				<p>This is what a paragraph will look like.</p>
-
-				<h4>Hello World!</h4>
-				<p>This is what a paragraph will look like.</p>
-
-				<h5>Hello World!</h5>
-				<p>This is what a paragraph will look like.</p>
-
-				<ul>
-					<li>First Item</li>
-					<li>Second Item</li>
-					<li>Third Item</li>
-					<li>Fourth Item</li>
-				</ul>
-
-				<ol>
-					<li>First Item</li>
-					<li>Second Item</li>
-					<li>Third Item</li>
-					<li>Fourth Item</li>
-				</ol>
-
-				<button><a href="">Basic Button</a></button>
-
-				<blockquote>Many forms of Government have been tried, and will be tried in this world of sin and woe. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.</blockquote>
-
-				<table>
-          <caption>2015-2016 <a href="">Portland Trailblazers</a>Roster</caption>
-          <colgroup>
-            <col style="width:50%">
-            <col style="width:25%">
-            <col style="width:25%">
-          </colgroup>
-          <thead>
-            <tr>
-              <th>Player</th>
-              <th>Age</th>
-              <th>Salary</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Damian Lillard</td>
-              <td>24</td>
-              <td>$4.3</td>
-            </tr>
-             <tr>
-              <td>CJ McCollum</td>
-              <td>23</td>
-              <td>$2.5</td>
-            </tr>
-             <tr>
-              <td>Meyers Leonard</td>
-              <td>23</td>
-              <td>$3.1</td>
-            </tr>
-             <tr>
-              <td>Noah Vonleh</td>
-              <td>20</td>
-              <td>$2.6</td>
-            </tr>
-             <tr>
-              <td>Chris Kaman</td>
-              <td>33</td>
-              <td>$5.0</td>
-            </tr>
-             <tr>
-              <td>Luis Montero</td>
-              <td>22</td>
-              <td>$0.5</td>
-            </tr>
-
-          </tbody>
-        </table>
-
-				<div class="row">
-
-					<div class="col-md-3">
-						<div class="swatch">
-							<div class="swatch__color gray-1"></div>
-							<div class="swatch__name">
-								<ul class="list--unstyled">
-									<li>Color Name</li>
-									<li>Variable Name</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-3">
-						<div class="swatch">
-							<div class="swatch__color gray-1"></div>
-							<div class="swatch__name">
-								<ul class="list--unstyled">
-									<li>Color Name</li>
-									<li>Variable Name</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-3">
-						<div class="swatch">
-							<div class="swatch__color gray-1"></div>
-							<div class="swatch__name">
-								<ul class="list--unstyled">
-									<li>Color Name</li>
-									<li>Variable Name</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-3">
-						<div class="swatch">
-							<div class="swatch__color gray-1"></div>
-							<div class="swatch__name">
-								<ul class="list--unstyled">
-									<li>Color Name</li>
-									<li>Variable Name</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-				</div>
-				<h3>Headlines</h3>
-				<div class="example">
-					<div class="example__output">
-						<h2>This is a level two headline with a <a href="">Link</a>!</h2>
-						<h3>This is a level three headline with a <a href="">Link</a>!</h3>
-					</div>
-					<div class="example__code">
-						<pre><code class="language-markup">&lt;h2 class="className"&gt;This is a level two headline with a &lt;a href=""&gt;Link&lt;/a&gt;!&lt;/h2&gt;
-&lt;h3&gt;This is a level three headline with a &lt;a href=""&gt;Link&lt;/a&gt;!&lt;/h3&gt;
-
-						</code>
-						</pre>
-					</div>
-				</div>
-
-
-			</div>
+		</div>
 
 	</body>
 

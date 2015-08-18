@@ -1,0 +1,19 @@
+// **************************************************
+// Name: forms.scss
+// Description: styling for form inputs
+// **************************************************
+
+
+
+// Basic Default Inputs
+// --------------------------------------------------
+
+
+.input {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid $gray-7;
+  margin-bottom: 1rem;
+  width: 100%;
+  background: white;
+}

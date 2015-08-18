@@ -1,0 +1,55 @@
+// **************************************************
+// Name: buttons.scss
+// Description: button classes for links and button elements
+// **************************************************
+
+
+
+// Default Buttons styles
+// --------------------------------------------------
+
+a[class^="button"], button[class^="button"] {
+  display: inline-block;
+  margin-right: 1rem;
+  &:hover {
+    border: 2px solid $brand-1;
+    background-color: darken($brand-1, 3%);
+  }
+}
+
+
+.button-sm {
+  padding: .75rem 1.5rem;
+  text-align: center;
+  color: $brand-1;
+  border-radius: 3px;
+  border: 2px solid $brand-1;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $brand-1;
+    color: white;
+  }
+}
+
+.button-md {
+  padding: 1rem 4rem;
+  text-align: center;
+  color: $brand-1;
+  border-radius: 3px;
+  border: 2px solid $brand-1;
+  &:hover {
+    color: white;
+  }
+}
+
+.button-lg {
+  padding: 1rem 4rem;
+  text-align: center;
+  color: $brand-1;
+  border-radius: 3px;
+  border: 2px solid $brand-1;
+  font-size: 1.25rem;
+  &:hover {
+    color: white;
+  }
+}

@@ -4,6 +4,11 @@
 // ********************************************
 
 
+$breakpoint-sm : 768px;
+$breakpoint-md : 992px;
+$breakpoint-lg : 1200px;
+
+
 // Media Queries -- add more breakpoints as necessary
 
 @mixin mq($point) {

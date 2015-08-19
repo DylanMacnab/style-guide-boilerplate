@@ -1,0 +1,40 @@
+// **************************************************
+// Name: notifications.scss
+// Description: Notification panels
+// **************************************************
+
+
+
+// Base Notifications
+// --------------------------------------------------
+
+div[class^="notification"] {
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.notification--success {
+  background: $success-3;
+  border-left: 5px solid $success-1;
+  color: $success-1;
+}
+
+.notification--warning {
+  background: $warn-3;
+  border-left: 5px solid $warn-1;
+  color: $warn-1;
+}
+
+.notification--error {
+  background: $error-3;
+  border-left: 5px solid $error-1;
+  color: $error-1;
+}
+
+// Notification Titles
+// -----------------------
+
+.notification__title {
+  padding-top: 0;
+  margin-top: 10px;
+}

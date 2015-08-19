@@ -411,9 +411,6 @@ pre {
   border-bottom: 2px solid #e1e1e1;
   border-top: 2px solid #e1e1e1; }
 
-.hack--pre-wrap {
-  white-space: pre-wrap; }
-
 em {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400italic; }
@@ -1279,42 +1276,86 @@ pre[class*="language-"] {
   width: 100%;
   background: white; }
 
-a[class^="button"], button[class^="button"] {
+a[class^="btn-primary"], button[class^="btn-primary"] {
   display: inline-block;
-  margin-right: 1rem; }
-  a[class^="button"]:hover, button[class^="button"]:hover {
-    border: 2px solid #008da0;
-    background-color: #008091; }
+  margin-right: 1rem;
+  background-color: #02aac1;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  border: 2px solid #02aac1; }
+  a[class^="btn-primary"]:hover, button[class^="btn-primary"]:hover {
+    border: 2px solid #02aac1;
+    background-color: #02b3cb; }
 
-.button-sm {
+.btn-primary--sm {
   padding: .75rem 1.5rem;
-  text-align: center;
-  color: #008da0;
-  border-radius: 3px;
-  border: 2px solid #008da0;
+  font-size: .85rem;
   text-transform: uppercase; }
-  .button-sm:hover {
-    background-color: #008da0;
-    color: white; }
 
-.button-md {
-  padding: 1rem 4rem;
-  text-align: center;
-  color: #008da0;
-  border-radius: 3px;
-  border: 2px solid #008da0; }
-  .button-md:hover {
-    color: white; }
+.btn-primary--md {
+  padding: 1rem 4rem; }
 
-.button-lg {
+.btn-primary--lg {
   padding: 1rem 4rem;
-  text-align: center;
-  color: #008da0;
-  border-radius: 3px;
-  border: 2px solid #008da0;
   font-size: 1.25rem; }
-  .button-lg:hover {
+
+.btn-primary--full {
+  padding: 1rem 4rem;
+  width: 100%;
+  font-size: 1rem; }
+
+a[class^="btn-secondary"], button[class^="btn-secondary"] {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: white;
+  text-align: center;
+  border: 2px solid #02aac1;
+  border-radius: 3px; }
+  a[class^="btn-secondary"]:hover, button[class^="btn-secondary"]:hover {
+    border: 2px solid #02aac1;
+    background-color: #02aac1;
     color: white; }
+
+.btn-secondary--sm {
+  padding: .75rem 1.5rem;
+  font-size: .85rem;
+  text-transform: uppercase; }
+
+.btn-secondary--md {
+  padding: 1rem 4rem; }
+
+.btn-secondary--lg {
+  padding: 1rem 4rem;
+  font-size: 1.25rem; }
+
+.btn-secondary--full {
+  padding: 1rem 3rem;
+  width: 100%; }
+
+div[class^="notification"] {
+  padding: 20px;
+  border-radius: 3px; }
+
+.notification--success {
+  background: #caffcf;
+  border-left: 5px solid #1f7732;
+  color: #1f7732; }
+
+.notification--warning {
+  background: #fff4d7;
+  border-left: 5px solid #dda505;
+  color: #dda505; }
+
+.notification--error {
+  background: #ffdcd7;
+  border-left: 5px solid #842a12;
+  color: #842a12; }
+
+.notification__title {
+  padding-top: 0;
+  margin-top: 10px; }
 
 .swatch {
   margin-top: 5px; }
@@ -1388,7 +1429,7 @@ a[class^="button"], button[class^="button"] {
   background: #c1361b; }
 
 .error-3 {
-  background: #e2bbb0; }
+  background: #ffdcd7; }
 
 .warn-1 {
   background: #dda505; }
@@ -1397,7 +1438,7 @@ a[class^="button"], button[class^="button"] {
   background: #fcd638; }
 
 .warn-3 {
-  background: #ffebb3; }
+  background: #fff4d7; }
 
 .success-1 {
   background: #1f7732; }
@@ -1406,7 +1447,7 @@ a[class^="button"], button[class^="button"] {
   background: #2fad47; }
 
 .success-3 {
-  background: #aae5b2; }
+  background: #caffcf; }
 
 .example {
   margin-top: 10px; }
@@ -1449,6 +1490,7 @@ a[class^="button"], button[class^="button"] {
   background: #f6f7f8;
   color: #58595a;
   display: inline-block;
+  line-height: 1.3;
   padding-left: 5px;
   padding-right: 7px;
   border-radius: 3px; }
@@ -1462,6 +1504,37 @@ a[class^="button"], button[class^="button"] {
   @media (min-width: 992px) {
     .bar {
       margin-top: 0; } }
+
+.pvl {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.mtl {
+  margin-top: 20px; }
+
+.mvs {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.mvs {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.mvm {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.mvl {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mvxl {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.mvxxl {
+  margin-top: 75px;
+  margin-bottom: 75px; }
 
 .sidebar {
   float: left;

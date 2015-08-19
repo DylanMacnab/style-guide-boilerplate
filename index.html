@@ -462,7 +462,7 @@
 									<p>This is what a <a href="">link</a> looks like, with added <em>emphasis</em> and for extra emphasis use the <strong>strong</strong> text.</p>
 								</div>
 								<div class="example__code">
-<pre class="hack--pre-wrap"><code class="language-markup">&lt;p&gt;This is the style of a default paragraph. The font size is set to 1rem with a line height of 1.5. This is your general purpose body text style. For most use cases you shouldn't need to add any classes to style a paragraph.&lt;/p&gt;
+<pre><code class="language-markup">&lt;p&gt;This is the style of a default paragraph. The font size is set to 1rem with a line height of 1.5. This is your general purpose body text style. For most use cases you shouldn't need to add any classes to style a paragraph.&lt;/p&gt;
 &lt;p&gt;This is what a &lt;a href=""&gt;link&lt;/a&gt; looks like, with added &lt;em&gt;emphasis&lt;/em&gt; and extra emphasis use the &lt;strong&gt;strong&lt;/strong&gt; text.&lt;/p&gt;
 </code></pre>
 								</div>
@@ -475,7 +475,7 @@
 									<p class="type--large">Large type paragraphs are generally used to add emphasis or to introduce a new page or section.</p>
 								</div>
 								<div class="example__code">
-<pre class="hack--pre-wrap"><code class="language-markup">&lt;p class="type--large"&gt;Large type paragraphs are generally used to add emphasis or to introduce a new page or section.&lt;/p&gt;
+<pre><code class="language-markup">&lt;p class="type--large"&gt;Large type paragraphs are generally used to add emphasis or to introduce a new page or section.&lt;/p&gt;
 </code></pre>
 								</div>
 							</div>
@@ -487,7 +487,7 @@
 									<p class="type--small">Small type paragraphs are generally used reduce the importance of body copy and small print.</p>
 								</div>
 								<div class="example__code">
-<pre class="hack--pre-wrap"><code class="language-markup">&lt;p class="type--small"&gt;Small type paragraphs are generally used reduce the importance of body copy and small print.&lt;/p&gt;
+<pre><code class="language-markup">&lt;p class="type--small"&gt;Small type paragraphs are generally used reduce the importance of body copy and small print.&lt;/p&gt;
 </code></pre>
 								</div>
 							</div>
@@ -582,14 +582,56 @@
 									<blockquote>Blockquotes are used to indicates that the enclosed text is an extended quotation. This text is rendered indented and with a left border to seperate it from normal text. The font size is also slightly larger than default paragraph text to create more contrast.</blockquote>
 								</div>
 								<div class="example__code">
-<pre class="hack--pre-wrap"><code class="language-markup">&lt;blockquote&gt;Blockquotes are used to indicates that the enclosed text is an extended quotation. This text is rendered indented and with a left border to seperate it from normal text. The font size is also slightly larger than default paragraph text to create more contrast.&lt;/blockquote&gt;
+<pre><code class="language-markup">&lt;blockquote&gt;Blockquotes are used to indicates that the enclosed text is an extended quotation. This text is rendered indented and with a left border to seperate it from normal text. The font size is also slightly larger than default paragraph text to create more contrast.&lt;/blockquote&gt;
 </code></pre>
 								</div>
 							</div>
 
 
 						</div> <!-- End of Typography Section -->
-					</div>
+
+						<div class="section">
+
+							<h2>Buttons</h2>
+							<h3>Primary Button</h3>
+							<p>Use these classes...<span class="class-name">.btn-primary--sm</span> <span class="class-name">.btn-primary--md</span> <span class="class-name">.btn-primary--lg</span> <span class="class-name">.btn-primary--full</span>.</p>
+
+							<div class="example">
+								<div class="example__output">
+									<a href="" class="btn-primary--sm mvl">Primary Small</a></br>
+									<a href="" class="btn-primary--md mvl">Primary Medium</a></br>
+									<a href="" class="btn-primary--lg mvl">Primary Large</a></br>
+									<a href="" class="btn-primary--full mvl">Primary Full</a>
+								</div>
+								<div class="example__code">
+									<pre><code class="language-markup">&lt;a href="" class="btn-primary--sm"&gt;Primary Small&lt;/a&gt;
+&lt;a href="" class="btn-primary--md"&gt;Primary Medium&lt;/a&gt;
+&lt;a href="" class="btn-primary--lg"&gt;Primary Large&lt;/a&gt;
+&lt;a href="" class="btn-primary--full"&gt;Primary Full&lt;/a&gt;</code></pre>
+								</div>
+							</div>
+
+							<h3>Secondary Button</h3>
+							<p>Use these classes...<span class="class-name">.btn-secondary--sm</span> <span class="class-name">.btn-secondary--md</span> <span class="class-name">.btn-secondary--lg</span> <span class="class-name">.btn-secondary--full</span>.</p>
+
+							<div class="example">
+								<div class="example__output">
+									<a href="" class="btn-secondary--sm mvl">Secondary Small</a></br>
+									<a href="" class="btn-secondary--md mvl">Secondary Medium</a></br>
+									<a href="" class="btn-secondary--lg mvl">Secondary Large</a></br>
+									<a href="" class="btn-secondary--full mvl">Secondary Full</a>
+								</div>
+								<div class="example__code">
+									<pre><code class="language-markup">&lt;a href="" class="btn-secondary--sm"&gt;Secondary Small&lt;/a&gt;
+&lt;a href="" class="btn-secondary--md"&gt;Secondary Medium&lt;/a&gt;
+&lt;a href="" class="btn-secondary--lg"&gt;Secondary Large&lt;/a&gt;
+&lt;a href="" class="btn-secondary--full"&gt;Secondary Full&lt;/a&gt;</code></pre>
+								</div>
+							</div>
+
+						</div> <!-- End of Buttons Section -->
+
+					</div> <!-- End of Basic Style Section -->
 
 					<div id="layout" class="header"> <!-- Start of Layout Category -->
 						<div class="container-fluid">
@@ -629,7 +671,7 @@
 									</div>
 								</div>
 								<div class="example__code">
-<pre class="hack--pre-wrap"><code class="language-markup">&lt;div class="container-fluid"&gt;
+<pre><code class="language-markup">&lt;div class="container-fluid"&gt;
 	&lt;div class="row"&gt;
 		&lt;div class="col-md-6"&gt;
 			&lt;div class="bar"&gt;
@@ -660,8 +702,7 @@
 					<div class="container-fluid">
 
 						<div class="section">
-							<h2>Tables</h2>
-            	<h3>Default Table</h3>
+							<h2>Table</h2>
 							<div class="example">
 								<div class="example__output">
 									<table>
@@ -767,22 +808,65 @@
 						</div>
 
 						<div class="section">
-							<h2>Forms</h2>
-            	<h3>Basic Text Form</h3>
+							<h2>Form</h2>
 							<div class="example">
 								<div class="example__output">
-									<p>Hello World</p>
+									<input class="input" type="text" placeholder="First Name"/>
+	                <input class="input" type="text" placeholder="Last Name"/>
+	                <input class="input" type="email" placeholder="name@domain.com"/>
+	                <textarea class="input" rows="8" placeholder="Write your message..."></textarea>
+	                <a href ="" class="btn-primary--full">Primary Action</a>
+									<a href ="" class="btn-secondary--full">Secondary Action</a>
 								</div>
 								<div class="example__code">
-									<pre><code class="language-markup">&lt;h1 class="h1"&gt;Headline One&lt;/h1&gt;
-&lt;h2 class="h2"&gt;Headline Two&lt;/h2&gt;
-&lt;h3 class="h3"&gt;Headline Three&lt;/h3&gt;
-&lt;h4 class="h4"&gt;Headline Four&lt;/h4&gt;
-&lt;h5 class="h5"&gt;Headline Five&lt;/h5&gt;</code></pre>
+									<pre><code class="language-markup">&lt;input class="input" type="text" placeholder="First Name"/&gt;
+&lt;input class="input" type="text" placeholder="Last Name"/&gt;
+&lt;input class="input" type="email" placeholder="name@domain.com"/&gt;
+&lt;textarea class="input" rows="8" placeholder="Write your message..."&gt;&lt;/textarea&gt;
+&lt;a href="" class="btn-primary--full"&gt;Send Message&lt;/a&gt;
+&lt;a href="" class="btn-secondary--full"&gt;Send Message&lt;/a&gt;</code></pre>
 								</div>
 							</div>
 						</div>
 
+						<div class="section">
+
+							<h2>Notifications</h2>
+							<p>These are feedback panels used to indicate the status of a form to a user. There types of notifications: <span class="class-name">.notification--sucess</span>, <span class="class-name">.notification--warning</span>, and <span class="class-name">.notification--error</span>. Use the <span class="class-name">.notification__title</span> class as needed.</p>
+							<div class="example">
+								<div class="example__output">
+									<div class="notification--success">
+										<h5  class="notification__title">Sucess Notification</h5>
+										<p>Thanks for submitting your information. We will contact you within 48hrs.</p>
+									</div>
+									<div class="notification--warning mtl">
+										<h5  class="notification__title">Warning Notification</h5>
+										<p>Double check your answers for accuracy.</p>
+									</div>
+									<div class="notification--error mtl">
+										<h5  class="notification__title">Error Notification</h5>
+										<p>We weren't able to submit the form. Please fill out all required fields.</p>
+									</div>
+								</div>
+								<div class="example__code">
+									<pre><code class="language-markup">&lt;div class="notification--success"&gt;
+	&lt;h5  class="notification__title"&gt;Sucess Notification&lt;/h5&gt;
+	&lt;p&gt;Thanks for submitting your information. We will contact you within 48hrs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="notification--warning"&gt;
+	&lt;h5  class="notification__title"&gt;Warning Notification&lt;/h5&gt;
+	&lt;p&gt;Double check your answers for accuracy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="notification--error"&gt;
+	&lt;h5  class="notification__title"&gt;Error Notification&lt;/h5&gt;
+	&lt;p&gt;We weren't able to submit the form. Please fill out all required fields.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+								</div>
+							</div>
+
+
+
+						</div> <!-- End of Notifications -->
 
 					</div>
 

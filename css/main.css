@@ -1438,16 +1438,16 @@ div[class^="notification"] {
   background: #82e8e8; }
 
 .accent-1 {
-  background: #26474e; }
+  background: #1e2130; }
 
 .accent-2 {
-  background: #326168; }
+  background: #2b346b; }
 
 .accent-3 {
-  background: #36787f; }
+  background: #2b3c8e; }
 
 .accent-4 {
-  background: #5ca9ad; }
+  background: #2d4bb5; }
 
 .error-1 {
   background: #842a12; }
@@ -1507,7 +1507,8 @@ div[class^="notification"] {
 
 .header {
   padding: 100px 0 10px 0;
-  margin-top: 50px; }
+  margin-top: 50px;
+  background-image: url("../img/header-bg.png"); }
   .header:first-of-type {
     margin-top: 0; }
 
@@ -1571,7 +1572,7 @@ div[class^="notification"] {
   height: 100%;
   padding: 30px;
   background: white;
-  box-shadow: 0 1px 3px rgba(28, 29, 30, 0.07); }
+  box-shadow: 0 2px 4px rgba(28, 29, 30, 0.1); }
 
 .sidebar__logo {
   font-weight: 300;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic' rel='stylesheet' type='text/css'>
@@ -16,9 +17,9 @@
 		<div class="page-wrap"> <!-- Page-Wrap Starts -->
 
 			<div class="sidebar"> <!-- Sidebar Starts -->
-				<a href="#introduction">
+				<a href="#">
 					<div class="sidebar__logo">
-						<p>Styleguide</br>
+						<p>Style Guide</br>
 						<span>Boilerplate</span>
 						</p>
 					</div>
@@ -33,7 +34,7 @@
 
 			<div class="main-content">
 
-					<div id="introduction" class="header">
+					<div id="introduction" class="header accent-1">
 						<div class="container-fluid">
 							<h1>Introduction</h1>
 						</div>
@@ -49,17 +50,17 @@
 
 								<div class="col-sm-4">
 									<h3>Basic Style</h3>
-									<p>Testing here. Three or four lines are good length for this section. Talk about what will go in this section stuff and other things.</p>
+									<p>The basic building blocks of your designs. Use this section to organize individual styles and default html.</p>
 								</div>
 
 								<div class="col-sm-4">
 									<h3>Layout</h3>
-									<p>Talk about basic style here. Three or four lines is a good length for this section. Talk about what will go in this section of the style guide.</p>
+									<p>The grid system and minor layout helpers. Some things you'll find here include media blocks and a grid system.</p>
 								</div>
 
 								<div class="col-sm-4">
 									<h3>Components</h3>
-									<p>Talk about basic style here. Three or good length for this section. Talk about what will go in this section of the style guide.</p>
+									<p>More complex multi-part components. These are created using multiple elements and classes. Use basic styles to modify the style.</p>
 								</div>
 
 							</div>
@@ -68,7 +69,7 @@
 
 					</div>
 
-					<div id="basic-style" class="header">
+					<div id="basic-style" class="header accent-2">
 						<div class="container-fluid">
 							<h1>Basic Style</h1>
 						</div>
@@ -633,7 +634,7 @@
 
 					</div> <!-- End of Basic Style Section -->
 
-					<div id="layout" class="header"> <!-- Start of Layout Category -->
+					<div id="layout" class="header brand-1"> <!-- Start of Layout Category -->
 						<div class="container-fluid">
 							<h1>Layout</h1>
 						</div>
@@ -653,31 +654,252 @@
 							<h4>Rows</h4>
 							<p>Inside your container live the rows of content. Not all of your content needs to live inside a row, however, for anything other than single column layouts, you will need to nest a <span class="class-name">.row</span>. Rows also make sure your the gutters align correctly when using columns.</p>
 							<h4>Columns</h4>
-							<p>The final piece of the grid system are the column classes. These are mobile first, and you can use more than one class on an element for more control over the responsiveness of the layout at different viewport sizes. Every column class is made of three things: col, viewport size, and # of columns. For example: if you want a two column grid starting at medium size devices, <span class="class-name">.col-md-6</span>.</p>
+							<p>The final piece of the grid system are the column classes. These are mobile first, and you can use more than one class on an element for more control over the responsiveness of the layout at different viewport sizes. Column classes are made of three parts: col, viewport size, and # of columns spanned. The example below demonstrate each col span for the medius size browser widths. In the code example I'm showing how to create a full 12 column span for medium size devices: <span class="class-name">.col-md-12</span>.</p>
 
 							<div class="example">
 								<div class="example__output">
 									<div class="row">
-										<div class="col-md-6">
+										<div class="col-md-1">
 											<div class="bar">
-												<p><span class="class-name">.col-md-6</span></p>
+												<p><span class="class-name">1</span></p>
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-md-1">
 											<div class="bar">
-												<p><span class="class-name">.col-md-6</span></p>
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+										<div class="col-md-2">
+											<div class="bar">
+												<p><span class="class-name">2</span></p>
+											</div>
+										</div>
+										<div class="col-md-2">
+											<div class="bar">
+												<p><span class="class-name">2</span></p>
+											</div>
+										</div>
+										<div class="col-md-2">
+											<div class="bar">
+												<p><span class="class-name">2</span></p>
+											</div>
+										</div>
+										<div class="col-md-2">
+											<div class="bar">
+												<p><span class="class-name">2</span></p>
+											</div>
+										</div>
+										<div class="col-md-2">
+											<div class="bar">
+												<p><span class="class-name">2</span></p>
+											</div>
+										</div>
+										<div class="col-md-2">
+											<div class="bar">
+												<p><span class="class-name">2</span></p>
 											</div>
 										</div>
 									</div>
+
+									<div class="row">
+										<div class="col-md-3">
+											<div class="bar">
+												<p><span class="class-name">3</span></p>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="bar">
+												<p><span class="class-name">3</span></p>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="bar">
+												<p><span class="class-name">3</span></p>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="bar">
+												<p><span class="class-name">3</span></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-4">
+											<div class="bar">
+												<p><span class="class-name">4</span></p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="bar">
+												<p><span class="class-name">4</span></p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="bar">
+												<p><span class="class-name">4</span></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-5">
+											<div class="bar">
+												<p><span class="class-name">5</span></p>
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="bar">
+												<p><span class="class-name">7</span></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-6">
+											<div class="bar">
+												<p><span class="class-name">6</span></p>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="bar">
+												<p><span class="class-name">6</span></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-7">
+											<div class="bar">
+												<p><span class="class-name">7</span></p>
+											</div>
+										</div>
+										<div class="col-md-5">
+											<div class="bar">
+												<p><span class="class-name">5</span></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-8">
+											<div class="bar">
+												<p><span class="class-name">8</span></p>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="bar">
+												<p><span class="class-name">4</span></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-9">
+											<div class="bar">
+												<p><span class="class-name">9</span></p>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="bar">
+												<p><span class="class-name">3</span></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-10">
+											<div class="bar">
+												<p><span class="class-name">10</span></p>
+											</div>
+										</div>
+										<div class="col-md-2">
+											<div class="bar">
+												<p><span class="class-name">2</span></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-11">
+											<div class="bar">
+												<p><span class="class-name">11</span></p>
+											</div>
+										</div>
+										<div class="col-md-1">
+											<div class="bar">
+												<p><span class="class-name">1</span></p>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-12">
+											<div class="bar">
+												<p><span class="class-name">12</span></p>
+											</div>
+										</div>
+									</div>
+
 								</div>
+
 								<div class="example__code">
 <pre><code class="language-markup">&lt;div class="container-fluid"&gt;
 	&lt;div class="row"&gt;
-		&lt;div class="col-md-6"&gt;
-			&lt;div class="bar"&gt;
-				&lt;p&gt;&lt;span class="class-name"&gt;.col-md-6&lt;/span&gt;&lt;/p&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
 		&lt;div class="col-md-6"&gt;
 			&lt;div class="bar"&gt;
 				&lt;p&gt;&lt;span class="class-name"&gt;.col-md-6&lt;/span&gt;&lt;/p&gt;
@@ -691,9 +913,45 @@
 
 						</div> <!-- End of Grid System Section -->
 
+						<div class="section">
+							<h2>Layout Blocks</h2>
+							<h3>Media</h3>
+							<p>This is a very common layout block. Image or icon next with content off to the right or left. Start with a <span class="class-name">.media</span> container with a <span class="class-name">.media__(left or right)</span> for the image and a <span class="class-name">.media__body</span> for the content.</p>
+
+							<div class="example">
+								<div class="example__output">
+									<div class="media">
+										<div class="media__left">
+    									<div>
+      									<img src="http://placehold.it/300x200"/>
+    									</div>
+  									</div>
+  									<div class="media__body">
+    									<h4 class="media__heading">Media heading</h4>
+    									<p>This is media block with a media-left image, media-body, media-heading, and an image container. The size of the image or icon can either be fixed or fluid, depending on it's parent container.</p>
+  									</div>
+									</div>
+								</div>
+								<div class="example__code">
+									<pre><code class="language-markup">&lt;div class="media"&gt;
+	&lt;div class="media__left"&gt;
+		&lt;div&gt;
+			&lt;img src="http://placehold.it/300x200"/&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="media__body"&gt;
+		&lt;h4 class="media__heading"&gt;Media heading&lt;/h4&gt;
+		&lt;p&gt;paragraph content text...&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+								</div>
+							</div>
+
+						</div>
+
 					</div> <!-- End of Layout Category -->
 
-					<div id="components" class="header"> <!-- Start of Component Category -->
+					<div id="components" class="header brand-2"> <!-- Start of Component Category -->
 						<div class="container-fluid">
 							<h1>Components</h1>
 						</div>

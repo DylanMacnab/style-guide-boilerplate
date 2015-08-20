@@ -1,0 +1,39 @@
+// **************************************************
+// Name: layout-blocks.scss
+// Description: small block layout styles
+// **************************************************
+
+
+
+// Media
+// --------------------------------------------------
+
+.media {
+  margin-top: 15px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.media__right {
+  padding-left: 10px;
+}
+
+.media__left {
+  padding-right: 10px;
+}
+
+.media__left, .media__right, .media__body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.media__heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-top: 0;
+}
+
+.media__list {
+  padding-left: 0;
+  list-style: none; }

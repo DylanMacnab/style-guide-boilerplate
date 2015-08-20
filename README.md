@@ -1,4 +1,4 @@
-# style-guide-boilerplate
+# Style Guide Boilerplate
 
 <p>View the living <a href="http://dylanmacab.github.io/style-guide-boilerplate/">Style Guide Boilerplate</a></p>
 

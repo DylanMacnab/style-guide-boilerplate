@@ -3,7 +3,7 @@ Error: Undefined variable: "$font-family--primary".
         on line 25 of /Users/dylanmacnab/Desktop/SG-Development/style-guide-boilerplate/scss/base/_defaults.scss
 
 20: // -------------------------
-21: 
+21:
 22: html {
 23:   font-size: 1rem;
 24:   line-height: 1.5;
@@ -11,7 +11,7 @@ Error: Undefined variable: "$font-family--primary".
 26:   font-weight: $font-weight--normal;
 27:   color: $gray-4;
 28: }
-29: 
+29:
 30: body {
 
 Backtrace:

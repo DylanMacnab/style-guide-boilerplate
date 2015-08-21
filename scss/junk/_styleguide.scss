@@ -149,10 +149,12 @@
 // ----------------------
 
 .page-wrap {
+  @include mq("md") {
   content: "";
   display: table;
   clear: both;
   width: 100%;
+  }
 }
 
 

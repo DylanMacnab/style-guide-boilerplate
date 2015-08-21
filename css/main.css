@@ -1497,11 +1497,12 @@ div[class^="notification"] {
 .example .h1, .example .h2, .example .h3, .example .h4, .example .h5 {
   color: #a4a5a6; }
 
-.page-wrap {
-  content: "";
-  display: table;
-  clear: both;
-  width: 100%; }
+@media (min-width: 992px) {
+  .page-wrap {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%; } }
 
 .main-content {
   width: 100%; }

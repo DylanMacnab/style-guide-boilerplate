@@ -2,10 +2,10 @@
 Error: Undefined variable: "$font-family--primary".
         on line 13 of /Users/dylanmacnab/Desktop/SG-Development/style-guide-boilerplate/scss/module/type.scss
 
-8: 
+8:
 9: // different font sizes
 10: // --------------------------------------------------
-11: 
+11:
 12: .type--large {
 13:   font-family: $font-family--primary;
 14:   font-size: 1.25rem;

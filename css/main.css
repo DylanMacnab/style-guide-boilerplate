@@ -1582,6 +1582,15 @@ div[class^="notification"] {
   margin-top: 75px;
   margin-bottom: 75px; }
 
+a.center-sm {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+  @media (min-width: 768px) {
+    a.center-sm {
+      display: inline-block; } }
+
 .sidebar {
   display: none; }
   @media (min-width: 992px) {

@@ -47,18 +47,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 4.75rem;
+  font-size: 3.75rem;
   color: $gray-10;
+
+  @include mq("md") {
+  font-size: 4.75rem;
+  }
 }
 
 h2, .h2 {
-  font-size: 2.25rem;
   color: $brand-2;
+  font-size: 1.85rem;
+
+  @include mq("md") {
+  font-size: 2.25rem;
+  }
 }
 
 h3, .h3 {
-  font-size: 1.5rem;
   color: $brand-2;
+  font-size: 1.3rem;
+
+  @include mq("md") {
+  font-size: 1.5rem;
+  }
 }
 
 h4, .h4 {

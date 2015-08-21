@@ -17,6 +17,7 @@
 
   @import "base/_variables";
   @import "base/_normalize";
+  @import "tools/_media-queries"; // mixin // neeeds new location
   @import "base/_defaults"; // Custom HTLM defaults
 
 
@@ -24,7 +25,6 @@
 // ********************************************
 // T O O L S : Mixins, Functions, Media Queries, Helper Classes, Grid System
 
-  @import "tools/_media-queries"; // mixin
   @import "tools/_grid-system";  // from bootstrap
   @import "tools/_prism-js"; // js libary css for code blocks
 

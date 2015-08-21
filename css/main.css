@@ -1545,12 +1545,18 @@ div[class^="notification"] {
       margin-top: 0;
       margin-bottom: 10px; } }
 
-.pvl {
+.pvm {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+.ptxl {
+  padding-top: 40px; }
+
 .mtl {
   margin-top: 20px; }
+
+.mtxl {
+  margin-top: 40px; }
 
 .mvs {
   margin-top: 0px;

@@ -1589,3 +1589,10 @@ div[class^="notification"] {
     margin-top: 0; }
   .sidebar__logo span {
     font-weight: 700; }
+
+.sidebar__credit {
+  position: absolute;
+  bottom: 15px;
+  color: #a4a5a6; }
+  .sidebar__credit:hover {
+    color: #02aac1; }

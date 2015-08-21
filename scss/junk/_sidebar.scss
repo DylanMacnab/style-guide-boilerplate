@@ -39,3 +39,12 @@
     font-weight: $font-weight--bold;
   }
 }
+
+.sidebar__credit {
+  position: absolute;
+  bottom: 15px;
+  color: $gray-5;
+  &:hover {
+    color: $brand-2;
+  }
+}

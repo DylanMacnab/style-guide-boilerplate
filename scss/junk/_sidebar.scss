@@ -10,16 +10,20 @@
 // --------------------------------------------------
 
 .sidebar {
+  display: none;
+
+  @include mq("md") {
   float: left;
   position: fixed;
+  display: block;
   height: 100%;
   width: 250px;
   height: 100%;
   padding: 30px;
   background: $gray-10;
   box-shadow: 0 2px 4px rgba($gray-1, .1);
+  }
 }
-
 .sidebar__logo {
   font-weight:$font-weight--light;
   font-size: 1.75rem;

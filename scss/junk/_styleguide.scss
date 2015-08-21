@@ -160,9 +160,12 @@
 // ----------------------
 
 .main-content {
-  float: right;
   width: 100%;
+
+  @include mq("md") {
+  float: right;
   padding-left: 250px;
+  }
 }
 
 // Sections

@@ -1495,9 +1495,11 @@ div[class^="notification"] {
   width: 100%; }
 
 .main-content {
-  float: right;
-  width: 100%;
-  padding-left: 250px; }
+  width: 100%; }
+  @media (min-width: 992px) {
+    .main-content {
+      float: right;
+      padding-left: 250px; } }
 
 .section {
   padding-bottom: 75px;
@@ -1565,14 +1567,18 @@ div[class^="notification"] {
   margin-bottom: 75px; }
 
 .sidebar {
-  float: left;
-  position: fixed;
-  height: 100%;
-  width: 250px;
-  height: 100%;
-  padding: 30px;
-  background: white;
-  box-shadow: 0 2px 4px rgba(28, 29, 30, 0.1); }
+  display: none; }
+  @media (min-width: 992px) {
+    .sidebar {
+      float: left;
+      position: fixed;
+      display: block;
+      height: 100%;
+      width: 250px;
+      height: 100%;
+      padding: 30px;
+      background: white;
+      box-shadow: 0 2px 4px rgba(28, 29, 30, 0.1); } }
 
 .sidebar__logo {
   font-weight: 300;
